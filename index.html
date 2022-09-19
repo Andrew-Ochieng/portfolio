@@ -9,29 +9,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 </head>
-<body class="bg-[#1a2238]" style="font-family: 'Poppins', sans-serif;">
+<body class="bg-[#1a2238]" style="font-family: 'Ubuntu', sans-serif;">
     <!--navbar-->
     <nav class="bg-[#9daaf2] sticky top-0">
         <div class="mx-6 md:flex md:justify-around items-center md:py-8 py-6">
             <div class="text-[#1a2238] flex justify-between items-center">
-                <h1 class=" md:text-2xl text-xl font-bold">Andrew Ochieng</h1>
+                <a href="#" class=" md:text-2xl text-xl font-bold">Andrew Ochieng</a>
 
-                <button id="hambuger" class="md:hidden text-4xl">
+                <button id="hambuger" class="md:hidden text-2xl">
                     <i onclick="showMenu()" class="fa fa-bars cursor-pointer"></i>
                 </button>
 
-                <button id="times" class=" hidden">
+                <button id="times" class="text-2xl hidden">
                     <i onclick="hideMenu()" class="fa fa-times cursor-pointer"></i>
                 </button>
             </div>
 
             <div>
-                <ul id="menu" class="md:flex hidden items-center text-[#1a2238] font-semibold md:text-xl text-base">
-                    <li class="md:mx-4 hover:text-[#ff6a3d]">
-                        <a class="" href="#home">Home</a>
-                    </li>
+                <ul id="menu" class="md:flex hidden items-center text-[#1a2238] font-semibold md:text-xl text-lg">
                     <li class="md:mx-4 hover:text-[#ff6a3d]">
                         <a class="" href="#about">About</a>
                     </li>
@@ -51,14 +48,14 @@
 
 
     <!--hero-section-->
-    <section id="home" class="md:my-44 my-28 lg:mx-32 md:mx-8 mx-6">
+    <section id="home" class="lg:my-64 md:my-44 my-28 lg:mx-32 md:mx-8 mx-6">
         <div class="md:flex justify-around my-8"> 
-            <div>
+            <div class="md:w-1/2">
                 <h3 class="py-3 text-[#ff6a3d] md:text-lg text-base">Hello 👋. My name is</h3>
                 <h1 class="py-3 text-[#9daaf2] font-extrabold md:text-6xl text-3xl">Andrew Ochieng</h1>
                 <h2 class="py-3 text-[#9daaf2] font-extrabold md:text-3xl text-xl">Frontend Software Developer/ UI Designer</h2>
-                <p class="py-3 text-white text-lg">Creating products & services for the 🕸 <br>
-                    <span>using HTML5/CSS3, JavaScript, React, Vuejs & Nuxtjs</span>
+                <p class="py-3 text-white text-lg">And I love creating 🕸 products & services  using stacks such as 
+                    <span>HTML5/CSS3, Tailwindcss, JavaScript, React, Vue, Nuxt & ... many more</span>
                 </p>
                 <button class="mt-4 md:text-xl text-base  font-semibold border-2 border-[#ff6a3d] text-white hover:bg-[#9daaf2] hover:border-2 hover:border-[#9daaf2] hover:text-[#1a2238] duration-500 px-4 py-3 rounded-xl flex items-center justify-between">
                     Hire Me
@@ -68,22 +65,22 @@
 
             <div class="flex flex-col md:space-y-16 space-y-8 md:items-center">
                 <div class="sm:grid-cols-3 grid-cols-2 grid gap-8  lg:text-4xl md:text-3xl text-[#9daaf2] text-2xl md:mt-0 mt-16">
-                    <div class="flex justify-center items-center rounded-full border-2 border-[#ff6a3d] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
+                    <div class="flex justify-center items-center rounded-lg shadow-md shadow-[#040c16] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
                         <i class="md:p-8 p-4 cursor-pointer hover:text-[#ff6a3d] fa fa-whatsapp" aria-hidden="true"></i>
                     </div>
-                    <div class="flex justify-center items-center rounded-full border-2 border-[#ff6a3d] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
+                    <div class="flex justify-center items-center rounded-lg shadow-md shadow-[#040c16] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
                         <i class="md:p-8 p-4 cursor-pointer hover:text-[#ff6a3d] fa fa-twitter" aria-hidden="true"></i>
                     </div>
-                    <div class="flex justify-center items-center rounded-full border-2 border-[#ff6a3d] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
+                    <div class="flex justify-center items-center rounded-lg shadow-md shadow-[#040c16] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
                         <i class="md:p-8 p-4 cursor-pointer hover:text-[#ff6a3d] fa fa-linkedin" aria-hidden="true"></i>
                     </div>
-                    <div class="flex justify-center items-center rounded-full border-2 border-[#ff6a3d] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
+                    <div class="flex justify-center items-center rounded-lg shadow-md shadow-[#040c16] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
                         <i class="md:p-8 p-4 cursor-pointer hover:text-[#ff6a3d] fa fa-github" aria-hidden="true"></i>
                     </div>
-                    <div class="flex justify-center items-center rounded-full border-2 border-[#ff6a3d] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
+                    <div class="flex justify-center items-center rounded-lg shadow-md shadow-[#040c16] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
                         <i class="md:p-8 p-4 cursor-pointer hover:text-[#ff6a3d] fa fa-facebook" aria-hidden="true"></i>
                     </div>
-                    <div class="flex justify-center items-center rounded-full border-2 border-[#ff6a3d] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
+                    <div class="flex justify-center items-center rounded-lg shadow-md shadow-[#040c16] hover:border-[#9daaf2] hover:shadow-md hover:shadow-[#9daaf2] hover:scale-105 hover:translate-2 duration-500">
                         <i class="md:p-8 p-4 cursor-pointer hover:text-[#ff6a3d] fa fa-instagram" aria-hidden="true"></i>
                     </div>
                 </div>
@@ -94,7 +91,7 @@
 
 
     <!--about-->
-    <section id="about" class="lg:m-32 md:m-16 m-8">
+    <section id="about" class="lg:m-44 md:m-16 m-8">
         <div class="md:text-center text-left">
             <h2 class="md:text-4xl text-2xl font-bold text-[#f4db7d] border-b-4 border-[#ff6a3d] inline pb-2">About</h2>
         </div>
@@ -105,7 +102,7 @@
                 
             </div>
             <div class="md:mt-0 mt-16 md:w-10/12">
-                <h1 class="text-[#f4db7d] lg:text-4xl md:text-4xl text-2xl font-black md:leading-loose  ">
+                <h1 class="text-[#f4db7d] lg:text-5xl md:text-4xl text-3xl font-black md:leading-5 tracking-wide">
                     Andrew is fueled by his 
                     passion to solve problems using code. 
                     He has major interest in both Software 
@@ -137,7 +134,7 @@
 
 
     <!--skills-->
-    <section id="skills" class="lg:m-32 md:m-16 m-8">
+    <section id="skills" class="lg:m-44 md:m-16 m-8">
         <div class="md:text-center text-left md:pt-0 pt-16">
             <h2 class="md:text-4xl text-2xl font-bold text-[#f4db7d] border-b-4 border-[#ff6a3d] inline pb-2">Skills</h2>
         </div>
@@ -180,7 +177,7 @@
 
 
     <!--projects-->
-    <section id="projects" class="lg:m-32 md:m-16 m-8">
+    <section id="projects" class="lg:m-44 md:m-16 m-8">
         <div class="md:text-center text-left md:pt-0 pt-16">
             <h2 class="md:text-4xl text-2xl font-bold text-[#f4db7d] border-b-4 border-[#ff6a3d] inline pb-2">Projects</h2>
             <p class="text-lg text-[#9daaf2] mt-8">Check out some of my recent working projects</p>
@@ -216,7 +213,7 @@
 
     <!--contact-->
     <section id="contact" class="">
-        <div class="lg:m-32 md:m-16 m-8">
+        <div class="lg:m-44 md:m-16 m-8">
             <div class="md:text-center text-left">
                 <h2 class="md:text-4xl text-2xl font-bold text-[#f4db7d] border-b-4 border-[#ff6a3d] inline pb-2">Get In Touch</h2>
                 <p class="text-lg text-[#9daaf2] mt-8">Let me know how I can help you with your project</p>
