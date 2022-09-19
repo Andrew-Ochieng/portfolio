@@ -25,7 +25,7 @@ This is my personal website that displays some of the skills I have in software 
 <br>
 
 
-<img src="" width="800px"/>
+<img src="./assets/images/view.png" width="800px"/>
 
 <br>
 
